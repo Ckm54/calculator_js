@@ -10,6 +10,6 @@ $(document).ready(function () {
         var num1 = parseInt($("#add1").val());
         var num2 = parseInt($("#add2").val());
         var result = add(num1, num2);
-        alert(result);
+        $("#output").text(result);
     });
 });
